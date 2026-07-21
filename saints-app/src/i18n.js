@@ -49,6 +49,11 @@ export const STRINGS = {
     loadError: "Couldn't load this book. Please try again.",
     bibleLangNote:
       "This text is the King James Version (1611, public domain). A fully licensed modern Albanian Bible isn't available to include here yet \u2014 see the About page for why.",
+    tabPrayers: "Prayers",
+    prayersHeading: "Prayers",
+    prayersSub: "The ones every Catholic learns by heart.",
+    prayersNote:
+      "These are traditional prayer texts. Your parish or diocese may use slightly different wording \u2014 ask a priest or catechist if you'd like the exact version used locally.",
   },
   sq: {
     brandSub: "Ec me Krishtin",
@@ -100,5 +105,10 @@ export const STRINGS = {
     loadError: "Nuk u ngarkua dot ky libër. Provo përsëri.",
     bibleLangNote:
       "Ky tekst është King James Version (1611, në domenin publik). Një Bibël moderne shqip me licencë të plotë nuk është ende e mundur për t'u përfshirë këtu \u2014 shiko faqen 'Rreth Nesh' për arsyen.",
+    tabPrayers: "Lutjet",
+    prayersHeading: "Lutjet",
+    prayersSub: "Ato që çdo katolik i mëson përmendsh.",
+    prayersNote:
+      "Këto janë tekste tradicionale lutjesh. Famullia apo dioqeza jote mund të përdorë një formulim paksa të ndryshëm \u2014 pyet një prift apo katekist nëse do versionin e saktë të përdorur lokalisht.",
   },
 };

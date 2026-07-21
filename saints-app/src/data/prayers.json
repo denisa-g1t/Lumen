@@ -1,0 +1,44 @@
+[
+  {
+    "id": "our-father",
+    "titleEn": "The Our Father",
+    "titleSq": "Ati Ynë",
+    "textEn": "Our Father, who art in heaven,\nhallowed be thy name;\nthy kingdom come;\nthy will be done,\non earth as it is in heaven.\nGive us this day our daily bread;\nand forgive us our trespasses,\nas we forgive those who trespass against us;\nand lead us not into temptation,\nbut deliver us from evil.\nAmen.",
+    "textSq": "Ati ynë, që je në qiell,\nu shenjtëroftë emri yt,\nardhtë mbretëria jote,\nu bëftë vullneti yt,\nsi në qiell, ashtu edhe në tokë.\nBukën tonë të përditshme jepna sot,\nedhe na i fal fajet tona,\nsikundër edhe ne ua falim fajtorëve tanë,\nedhe mos na lër të biem në tundim,\nporse na liro nga i ligu.\nAmen."
+  },
+  {
+    "id": "hail-mary",
+    "titleEn": "Hail Mary",
+    "titleSq": "Të Falemi Mari",
+    "textEn": "Hail Mary, full of grace, the Lord is with thee;\nblessed art thou among women,\nand blessed is the fruit of thy womb, Jesus.\nHoly Mary, Mother of God,\npray for us sinners,\nnow and at the hour of our death.\nAmen.",
+    "textSq": "Të falemi Mari, hirplote, Zoti është me ty;\ne bekuar je ti ndër gratë,\nedhe i bekuar fryti i barkut tënd, Jezusi.\nShenjta Mari, Nëna e Perëndisë,\nlutu për ne mëkatarët,\ntashti dhe në fill të vdekjes sonë.\nAmen."
+  },
+  {
+    "id": "glory-be",
+    "titleEn": "Glory Be",
+    "titleSq": "Lavdi Atit",
+    "textEn": "Glory be to the Father, and to the Son, and to the Holy Spirit,\nas it was in the beginning, is now, and ever shall be,\nworld without end.\nAmen.",
+    "textSq": "Lavdi Atit, edhe Birit, edhe Shpirtit Shenjt,\nsikurse ishte në fillim, ashtu tani e përherë\ne në jetë të jetëve.\nAmen."
+  },
+  {
+    "id": "guardian-angel",
+    "titleEn": "Guardian Angel Prayer",
+    "titleSq": "Lutja e Engjëllit Ruajtës",
+    "textEn": "Angel of God, my guardian dear,\nto whom God's love commits me here,\never this day be at my side,\nto light and guard, to rule and guide.\nAmen.",
+    "textSq": "Engjëll i Perëndisë, që je ruajtësi im,\ndashuria hyjnore më ka besuar tek ty,\nndriçomë, ruajmë, udhëhiqmë e qeverismë sot.\nAmen."
+  },
+  {
+    "id": "act-of-contrition",
+    "titleEn": "Act of Contrition",
+    "titleSq": "Lutja e Pendesës",
+    "textEn": "O my God, I am heartily sorry for having offended Thee,\nand I detest all my sins,\nbecause I dread the loss of Heaven and the pains of hell,\nbut most of all because they offend Thee, my God,\nwho art all good and deserving of all my love.\nI firmly resolve, with the help of Thy grace,\nto sin no more and to avoid the near occasions of sin.\nAmen.",
+    "textSq": "O Perëndia im, jam thellësisht i pikëlluar që të kam fyer,\ndhe i urrej të gjitha mëkatet e mia,\njo vetëm sepse kam frikë nga humbja e Parajsës dhe dhimbjet e ferrit,\npor mbi të gjitha sepse të fyejnë Ty, Perëndinë tim,\nqë je krejt i mirë dhe meritor i gjithë dashurisë sime.\nVendos fort, me ndihmën e hirit Tënd,\ntë mos mëkatoj më dhe të shmang rastet e afërta të mëkatit.\nAmen."
+  },
+  {
+    "id": "grace-before-meals",
+    "titleEn": "Grace Before Meals",
+    "titleSq": "Bekimi i Ushqimit",
+    "textEn": "Bless us, O Lord, and these Thy gifts,\nwhich we are about to receive from Thy bounty,\nthrough Christ our Lord.\nAmen.",
+    "textSq": "Na bekò, o Zot, edhe këto dhurata të Tuat,\nqë jemi për të marrë prej bujarisë Sate,\nnëpërmjet Krishtit, Zotit tonë.\nAmen."
+  }
+]

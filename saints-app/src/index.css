@@ -103,6 +103,14 @@ nav.tabs {
   border: 1px solid var(--line);
   border-radius: 999px;
   padding: 4px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  nav.tabs button {
+    padding: 7px 12px;
+    font-size: 0.78rem;
+  }
 }
 
 nav.tabs button {
@@ -656,6 +664,58 @@ ul.task-list {
 .modal-card p.bio {
   font-size: 0.96rem;
   line-height: 1.65;
+}
+
+/* ---------- Prayers ---------- */
+
+.prayers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.prayer-card {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--ink-2);
+  overflow: hidden;
+}
+
+.prayer-card.open {
+  border-color: var(--gold);
+}
+
+.prayer-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  color: var(--cream);
+  padding: 16px 20px;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+}
+
+.prayer-toggle {
+  color: var(--gold-bright);
+  font-size: 1.2rem;
+  font-weight: 400;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+.prayer-text {
+  margin: 0;
+  padding: 0 20px 20px;
+  white-space: pre-line;
+  font-size: 0.98rem;
+  line-height: 1.75;
+  color: var(--cream-dim);
 }
 
 /* ---------- Bible reader ---------- */

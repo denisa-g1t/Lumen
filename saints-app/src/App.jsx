@@ -5,6 +5,7 @@ import TaskManager from "./components/TaskManager";
 import Saints from "./components/Saints";
 import About from "./components/About";
 import BibleReader from "./components/BibleReader";
+import Prayers from "./components/Prayers";
 import { STRINGS } from "./i18n";
 
 const LANG_KEY = "lumen.lang.v1";
@@ -63,6 +64,12 @@ export default function App() {
               onClick={() => setTab("bible")}
             >
               {t.tabBible}
+            </button>
+            <button
+              className={tab === "prayers" ? "active" : ""}
+              onClick={() => setTab("prayers")}
+            >
+              {t.tabPrayers}
             </button>
             <button
               className={tab === "about" ? "active" : ""}
@@ -125,6 +132,16 @@ export default function App() {
               <p>{t.bibleSub}</p>
             </div>
             <BibleReader lang={lang} />
+          </>
+        )}
+
+        {tab === "prayers" && (
+          <>
+            <div className="section-heading">
+              <h2>{t.prayersHeading}</h2>
+              <p>{t.prayersSub}</p>
+            </div>
+            <Prayers lang={lang} />
           </>
         )}
 
