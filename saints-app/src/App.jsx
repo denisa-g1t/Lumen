@@ -3,6 +3,8 @@ import DailyVerse from "./components/DailyVerse";
 import HolyHour from "./components/HolyHour";
 import TaskManager from "./components/TaskManager";
 import Saints from "./components/Saints";
+import About from "./components/About";
+import BibleReader from "./components/BibleReader";
 import { STRINGS } from "./i18n";
 
 const LANG_KEY = "lumen.lang.v1";
@@ -56,6 +58,18 @@ export default function App() {
             >
               {t.tabSaints}
             </button>
+            <button
+              className={tab === "bible" ? "active" : ""}
+              onClick={() => setTab("bible")}
+            >
+              {t.tabBible}
+            </button>
+            <button
+              className={tab === "about" ? "active" : ""}
+              onClick={() => setTab("about")}
+            >
+              {t.tabAbout}
+            </button>
           </nav>
 
           <nav className="tabs" aria-label="Language">
@@ -103,6 +117,18 @@ export default function App() {
             <Saints lang={lang} />
           </>
         )}
+
+        {tab === "bible" && (
+          <>
+            <div className="section-heading">
+              <h2>{t.bibleHeading}</h2>
+              <p>{t.bibleSub}</p>
+            </div>
+            <BibleReader lang={lang} />
+          </>
+        )}
+
+        {tab === "about" && <About lang={lang} />}
 
         <footer className="site-footer">
           <strong>{t.footerQuote}</strong>

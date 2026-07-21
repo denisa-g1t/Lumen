@@ -2,14 +2,24 @@
 
 A small, focused web app for young Catholics: a daily Gospel reminder, a
 "Holy Hour" timer (a votive candle that burns down as you spend time in
-prayer or Scripture), a simple daily task manager, and a gallery of saints
+prayer or Scripture), a simple daily task manager, a gallery of saints
 (Augustine, Padre Pio, Carlo Acutis, John Bosco, Thérèse of Lisieux,
 Alphonsus Liguori, Philip Neri, the Twelve Apostles, and Jesus Christ
-Himself) with short, original biographies and a memorable quote from each.
+Himself), the complete Bible (King James Version, Genesis to Revelation),
+and an About page. Fully bilingual — Shqip (default) and English, with a
+toggle in the header.
 
-Built with React + Vite. No backend, no accounts — everything (tasks and
-your holy hour progress) is saved in your own browser's local storage, so
-it's private and works offline once loaded.
+Built with React + Vite. No backend, no accounts — tasks and your holy
+hour progress are saved in your own browser's local storage. The Bible
+text is served as static JSON files and fetched on demand, so the app
+stays fast even with the whole Bible included.
+
+A note on the Bible text: the King James Version is public domain, so
+it's included in full and unrestricted. A modern, properly licensed
+Albanian Bible translation was not available to include (the "Albanian
+Bible" text that circulates online as supposedly public domain is
+actually copyrighted by the Albanian Bible Society) — see the About page
+in the app for the full explanation.
 
 ## Run it locally
 
@@ -41,19 +51,26 @@ between visits.
 
 ```
 src/
-  data/saints.json       the saints' bios, quotes, feast days
-  data/verses.json       daily Gospel verses (rotates automatically)
+  data/saints.json        the saints' bios, quotes, feast days
+  data/verses.json         daily Gospel verses (rotates automatically)
+  data/bible-books.json    Bible book names (English + Albanian) and file map
   components/
-    DailyVerse.jsx       today's word from the Gospels
-    HolyHour.jsx         the candle timer
-    TaskManager.jsx      the daily to-do list
-    Saints.jsx           the saints gallery + detail popup
-  App.jsx                ties the tabs/pages together
-  index.css              all styling, using CSS variables at the top
+    DailyVerse.jsx         today's word from the Gospels
+    HolyHour.jsx           the candle timer
+    TaskManager.jsx        the daily to-do list
+    Saints.jsx             the saints gallery + detail popup
+    BibleReader.jsx        the full Bible reader (KJV)
+    About.jsx              the About / confession page
+  App.jsx                  ties the tabs/pages together
+  i18n.js                  all UI text, English + Albanian
+  index.css                all styling, using CSS variables at the top
+public/
+  bible/kjv/               the 66 Bible books as static JSON (King James Version)
 ```
 
 To add or edit a saint, just edit `src/data/saints.json` — no code changes
-needed. Same for the daily verses in `src/data/verses.json`.
+needed. Same for the daily verses in `src/data/verses.json`, and all UI
+text lives in `src/i18n.js`.
 
 ## Deploy it for free (GitHub + Vercel)
 

@@ -34,6 +34,21 @@ export const STRINGS = {
     patronOf: "Patron of",
     footerQuote: '"I am the vine, you are the branches."',
     footerRef: "John 15:5 \u00b7 Built to point past itself, to Him.",
+    tabAbout: "About",
+    aboutEyebrow: "A word from the one who built this",
+    aboutSignature: "The creator of Lumen",
+    aboutNote:
+      "Lumen isn't meant to be a substitute for God, or for His Church, or for the people around you who love Him too. It's a small, ordinary tool \u2014 like a bell that rings to remind you it's time to pray. All glory for anything good here belongs to Him.",
+    tabBible: "Bible",
+    bibleHeading: "The Holy Bible",
+    bibleSub: "The complete King James Version, Genesis to Revelation.",
+    oldTestament: "Old Testament",
+    newTestament: "New Testament",
+    chapter: "Chapter",
+    loading: "Loading...",
+    loadError: "Couldn't load this book. Please try again.",
+    bibleLangNote:
+      "This text is the King James Version (1611, public domain). A fully licensed modern Albanian Bible isn't available to include here yet \u2014 see the About page for why.",
   },
   sq: {
     brandSub: "Ec me Krishtin",
@@ -70,5 +85,20 @@ export const STRINGS = {
     patronOf: "Mbrojtës i",
     footerQuote: '"Unë jam hardhia, ju jeni shermendet."',
     footerRef: "Gjoni 15:5 \u00b7 Ndërtuar për të treguar përtej vetes, drejt Tij.",
+    tabAbout: "Rreth Nesh",
+    aboutEyebrow: "Një fjalë nga ajo që e ndërtoi këtë",
+    aboutSignature: "Krijuesja e Lumen",
+    aboutNote:
+      "Lumen nuk është menduar të zëvendësojë Perëndinë, as Kishën e Tij, as njerëzit rreth teje që e duan Atë gjithashtu. Është një mjet i vogël, i zakonshëm \u2014 si një zile që bie për të të kujtuar se është koha për t'u lutur. Çdo lavdi për çfarëdo të mirë këtu i takon Atij.",
+    tabBible: "Bibla",
+    bibleHeading: "Bibla e Shenjtë",
+    bibleSub: "King James Version e plotë, nga Zanafilla deri te Zbulesa.",
+    oldTestament: "Dhiata e Vjetër",
+    newTestament: "Dhiata e Re",
+    chapter: "Kapitulli",
+    loading: "Duke ngarkuar...",
+    loadError: "Nuk u ngarkua dot ky libër. Provo përsëri.",
+    bibleLangNote:
+      "Ky tekst është King James Version (1611, në domenin publik). Një Bibël moderne shqip me licencë të plotë nuk është ende e mundur për t'u përfshirë këtu \u2014 shiko faqen 'Rreth Nesh' për arsyen.",
   },
 };
